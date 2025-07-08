@@ -1,0 +1,5 @@
+# Ignore node dependencies
+RupertApp/node_modules/
+# Ignore logs
+npm-debug.log*
+package-lock.json

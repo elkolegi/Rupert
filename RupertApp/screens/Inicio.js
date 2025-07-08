@@ -6,7 +6,10 @@ export default function Inicio({ navigation }) {
     <View style={styles.container}>
       <Image source={require('../assets/logo.png')} style={styles.logo} />
       <Text style={styles.title}>Controla. Compara. Ahorra.</Text>
-      <Button title='Empezar' onPress={() => navigation.navigate('IntroducirDatos')} />
+      <Button
+        title='Empezar'
+        onPress={() => navigation.navigate('IntroducirDatos')}
+      />
     </View>
   );
 }
